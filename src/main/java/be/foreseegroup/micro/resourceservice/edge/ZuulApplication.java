@@ -1,4 +1,4 @@
-package be.foreseegroup.resourceservice.edge;
+package be.foreseegroup.micro.resourceservice.edge;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;

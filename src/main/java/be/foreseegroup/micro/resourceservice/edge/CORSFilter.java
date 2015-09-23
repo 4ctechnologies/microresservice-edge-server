@@ -1,4 +1,4 @@
-package be.foreseegroup.resourceservice.edge;
+package be.foreseegroup.micro.resourceservice.edge;
 
 import org.springframework.stereotype.Component;
 
