@@ -25,8 +25,10 @@ endpoints:
 zuul:
   ignoredServices: "*"
   routes:
-    personapi:
-      path: /personapi/**
+    unitsidecomposite:
+        path: /**
+#    personapi:
+#      path: /personapi/**
 #      stripPrefix: false
 
 logging:
