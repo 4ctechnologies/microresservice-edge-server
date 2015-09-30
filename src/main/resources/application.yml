@@ -25,8 +25,14 @@ endpoints:
 zuul:
   ignoredServices: "*"
   routes:
-    unitsidecomposite:
-        path: /**
+    customersidepath:
+        path: /c/**
+        serviceId: resourceapi
+        stripPrefix: false
+    unitsidepath:
+        path: /u/**
+        serviceId: resourceapi
+        stripPrefix: false
 #    personapi:
 #      path: /personapi/**
 #      stripPrefix: false
